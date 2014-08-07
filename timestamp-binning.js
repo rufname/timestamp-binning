@@ -1,6 +1,9 @@
 #!/bin/env node
 "use strict";
 
+//TODO: need to define meaning full defaults for evalPeriodString, binSizeString
+//and check if they are defined
+
 module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
 	//the parameter excludeBursts allows to disregard any additional timestamps
 	//for a bin that had already seen a timestamp. This makes the histrogram
