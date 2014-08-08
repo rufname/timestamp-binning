@@ -1,16 +1,18 @@
 #!/bin/env node
 "use strict";
 
-//TODO: need to define meaning full defaults for evalPeriodString, binSizeString
-//and check if they are defined
+//TODO: 
+//add bin description to output object
+//Add documentation to npm and github
+//Publish article on blog ;-)
 
 module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
+	if (typeof evalPeriodString === "undefined") evalPeriodString = "week";
+	if (typeof binSizeString === "undefined") binSizeString = "hour";	
 	//the parameter excludeBursts allows to disregard any additional timestamps
 	//for a bin that had already seen a timestamp. This makes the histrogram
 	//to only have values 0 or 1.
-	if (typeof excludeBursts === "undefined") {
-		excludeBursts = false;
-	}
+	if (typeof excludeBursts === "undefined") excludeBursts = false;
 
 	//the week starts on Monday at 00:00 am
 	//calculate the reference date (the next Monday based on the current date)
