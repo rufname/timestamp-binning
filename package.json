@@ -1,7 +1,7 @@
 {
   "name": "timestamp-binning",
-  "version": "0.1.1",
-  "description": "A small npm module for node.js that bins past timestamps into desired intervalls.",
+  "version": "0.1.2",
+  "description": "A small npm module for node.js that bins past timestamps into desired intervals and creates a histrogram array.",
   "main": "timestamp-binning.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
