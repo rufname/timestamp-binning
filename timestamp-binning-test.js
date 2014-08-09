@@ -13,9 +13,11 @@ var d3 = new Date(2014, 5, 28, 23, 20, 0, 0);
 //add an array of time stamps:
 binner.addTimestamps([d1, d3, d3, d3, d2]);
 
-console.log(binner.hist);
+console.log(binner.hist_array);
+inspect(binner.hist_object);
 
 //add a single timestamp
 binner.addTimestamp(d1);
 
-console.log(binner.hist);
+console.log(binner.hist_array);
+inspect(binner.hist_object);

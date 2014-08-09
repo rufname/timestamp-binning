@@ -1,7 +1,7 @@
 timestamp-binning
 =================
 
-A small module that bins past timestamps into desired intervals and creates an histogram array.
+A small module that bins past timestamps into desired intervals and creates a histogram array.
 
 ## Installation
 
@@ -11,7 +11,7 @@ A small module that bins past timestamps into desired intervals and creates an h
 ```js
 var timestampBinner = require('timestamp-binning');
 
-//cretae a new timestamp binner:
+//create a new timestamp binner:
 var evalPeriod = "week";
 var binSize = "day";
 var binner = new timestampBinner(evalPeriod, binSize);
@@ -37,4 +37,5 @@ console.log(binner.hist);
 ### More options
 
 Possible bin sizes are: **day, hour, minute, second**
+
 Available evaluation periods are: **week, day, hour**

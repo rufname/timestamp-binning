@@ -2,8 +2,8 @@
 "use strict";
 
 //TODO: 
-//add bin description to output object
-//Add documentation to npm and github
+//rework filtering of bursts
+//Update documentation to npm and github
 //Publish article on blog ;-)
 
 module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
@@ -56,17 +56,22 @@ module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
 			break;
 	}
 	
-	//initialize histogram array:
-	this.hist = [];
+	//initialize histogram array and object:
+	this.hist_array = [];
+	this.hist_object = [];
 	for (var i = 0; i < evalPeriod; i++) {
-		this.hist[i] = 0;
+		this.hist_array[i] = 0;
+		this.hist_object[i] = {
+			timestampbin: new Date(refDate.getTime() + i * binSize),
+			count: 0
+		};
 	}
-
-
 	
 	//public properties and functions:	
 	return {
-		hist: this.hist,
+		hist_array: this.hist_array,
+		
+		hist_object: this.hist_object,
 		
 		getBin : function (date) {
 			//bins start at 0
@@ -77,9 +82,11 @@ module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
 			//add one timestamp
 			var bin = Math.floor(evalPeriod - ((refDate.getTime() - date.getTime()) / binSize) % evalPeriod);
 			if (excludeBursts) {
-				this.hist[bin] = 1;
+				this.hist_array[bin] = 1;
+				this.hist_object[bin].count = 1;
 			} else {
-				this.hist[bin]++;
+				this.hist_array[bin]++;
+				this.hist_object[bin].count++;
 			}
 		},
 		
@@ -95,13 +102,16 @@ module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
 			for (var i in dates) {
 				var bin = Math.floor(evalPeriod - ((refDate.getTime() - dates[i].getTime()) / binSize) % evalPeriod);
 				if (excludeBursts) {
-					this.hist[bin] = 1;
+					this.hist_array[bin] = 1;
+					this.hist_object[bin].count = 1;
 				} else {
 					if (excludeBurstsOnce && !updated[bin]) {
-						this.hist[bin]++;
+						this.hist_array[bin]++;
+						this.hist_object[bin].count++;
 						updated[bin] = true;	//mark bin as updated => do not increment again
 					} else if (!excludeBurstsOnce) {
-						this.hist[bin]++;
+						this.hist_array[bin]++;
+						this.hist_object[bin].count++;
 					}
 				}			
 			}
