@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Michael\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\Michael\\AppData\\Local\\Temp\\npm-2544-wUlhk3o2\\1407614536851-0.8317300851922482\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+13 verbose folder .
+14 info prepublish timestamp-binning@0.1.2
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Michael\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+18 verbose lock tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz C:\Users\Michael\AppData\Roaming\npm-cache\1189a5e2-36851-0-8317300851922482-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+22 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+23 verbose tar unpack C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+24 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+25 verbose lock tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package C:\Users\Michael\AppData\Roaming\npm-cache\1e01d7ce-36851-0-8317300851922482-package.lock
+26 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+27 verbose lock tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz C:\Users\Michael\AppData\Roaming\npm-cache\1189a5e2-36851-0-8317300851922482-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry LICENSE
+34 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+35 silly gunzTarPerm extractEntry timestamp-binning-test.js
+36 silly gunzTarPerm modified mode [ 'timestamp-binning-test.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry timestamp-binning.js
+38 silly gunzTarPerm modified mode [ 'timestamp-binning.js', 438, 420 ]
+39 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+40 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+41 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+42 silly lockFile 1189a5e2-36851-0-8317300851922482-tmp-tgz tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\tmp.tgz
+43 verbose tar pack [ 'C:\\Users\\Michael\\AppData\\Roaming\\npm-cache\\timestamp-binning\\0.1.2\\package.tgz',
+43 verbose tar pack   'C:\\Users\\Michael\\AppData\\Local\\Temp\\npm-2544-wUlhk3o2\\1407614536851-0.8317300851922482\\package' ]
+44 verbose tarball C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+45 verbose folder C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+46 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+47 verbose lock tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package C:\Users\Michael\AppData\Roaming\npm-cache\1e01d7ce-36851-0-8317300851922482-package.lock
+48 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+49 verbose lock tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz C:\Users\Michael\AppData\Roaming\npm-cache\63b71284-estamp-binning-0-1-2-package-tgz.lock
+50 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+51 silly lockFile 1e01d7ce-36851-0-8317300851922482-package tar://C:\Users\Michael\AppData\Local\Temp\npm-2544-wUlhk3o2\1407614536851-0.8317300851922482\package
+52 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+53 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+54 silly lockFile 3cb4fee4--timestamp-binning-0-1-2-package C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+55 verbose lock C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package C:\Users\Michael\AppData\Roaming\npm-cache\3cb4fee4--timestamp-binning-0-1-2-package.lock
+56 silly lockFile 3cb4fee4--timestamp-binning-0-1-2-package C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+57 silly lockFile 3cb4fee4--timestamp-binning-0-1-2-package C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+58 verbose tar unpack C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+59 silly lockFile fbffbe29--timestamp-binning-0-1-2-package tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+60 verbose lock tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package C:\Users\Michael\AppData\Roaming\npm-cache\fbffbe29--timestamp-binning-0-1-2-package.lock
+61 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+62 verbose lock tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz C:\Users\Michael\AppData\Roaming\npm-cache\63b71284-estamp-binning-0-1-2-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+70 silly gunzTarPerm extractEntry timestamp-binning-test.js
+71 silly gunzTarPerm modified mode [ 'timestamp-binning-test.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry timestamp-binning.js
+73 silly gunzTarPerm modified mode [ 'timestamp-binning.js', 438, 420 ]
+74 silly lockFile fbffbe29--timestamp-binning-0-1-2-package tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+75 silly lockFile fbffbe29--timestamp-binning-0-1-2-package tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package
+76 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+77 silly lockFile 63b71284-estamp-binning-0-1-2-package-tgz tar://C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+78 verbose chmod C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz 644
+79 silly chown skipping for windows C:\Users\Michael\AppData\Roaming\npm-cache\timestamp-binning\0.1.2\package.tgz
+80 silly lockFile 3a52ce78- .
+81 silly lockFile 3a52ce78- .
+82 silly publish { name: 'timestamp-binning',
+82 silly publish   version: '0.1.2',
+82 silly publish   description: 'A small npm module for node.js that bins past timestamps into desired intervals and creates a histrogram array.',
+82 silly publish   main: 'timestamp-binning.js',
+82 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+82 silly publish   repository:
+82 silly publish    { type: 'git',
+82 silly publish      url: 'https://github.com/belici/timestamp-binning.git' },
+82 silly publish   keywords: [ 'node.js', 'timestamps', 'binning' ],
+82 silly publish   author:
+82 silly publish    { name: 'belici',
+82 silly publish      email: 'belici.apps@gmail.com',
+82 silly publish      url: 'http://www.grillberger.de/' },
+82 silly publish   license: 'MIT',
+82 silly publish   bugs: { url: 'https://github.com/belici/timestamp-binning/issues' },
+82 silly publish   homepage: 'https://github.com/belici/timestamp-binning',
+82 silly publish   readme: 'timestamp-binning\r\n=================\r\n\r\nA small module that bins past timestamps into desired intervals and creates a histogram array.\r\n\r\n## Installation\r\n\r\n`npm install timestamp-binning`\r\n\r\n## Usage\r\n```js\r\nvar timestampBinner = require(\'timestamp-binning\');\r\n\r\n//create a new timestamp binner:\r\nvar evalPeriod = "week";\r\nvar binSize = "day";\r\nvar binner = new timestampBinner(evalPeriod, binSize);\r\n\r\n//some dummy timestamps (dates) as examples:\r\nvar d1 = new Date(2014, 5, 27, 21, 20, 0, 0);\r\nvar d2 = new Date(2014, 5, 29, 2, 20, 0, 0);\r\nvar d3 = new Date(2014, 5, 28, 23, 20, 0, 0);\r\n\r\n//add an array of time stamps:\r\nbinner.addTimestamps([d1, d3, d3, d3, d2]);\r\n\r\nconsole.log(binner.hist);\r\n//will output: [ 0, 0, 0, 0, 1, 3, 1 ]\r\n\r\n//add a single timestamp\r\nbinner.addTimestamp(d1);\r\n\r\nconsole.log(binner.hist);\r\n//will output: [ 0, 0, 0, 0, 2, 3, 1 ]\r\n```\r\n\r\n### More options\r\n\r\nPossible bin sizes are: **day, hour, minute, second**\r\n\r\nAvailable evaluation periods are: **week, day, hour**',
+82 silly publish   readmeFilename: 'README.md',
+82 silly publish   _id: 'timestamp-binning@0.1.2',
+82 silly publish   dist: { shasum: 'abfe0aca5bca94c004f6de605389b2d8cd493ffa' },
+82 silly publish   _from: '.' }
+83 verbose url raw timestamp-binning
+84 verbose url resolving [ 'https://registry.npmjs.org/', './timestamp-binning' ]
+85 verbose url resolved https://registry.npmjs.org/timestamp-binning
+86 info trying registry request attempt 1 at 22:02:16
+87 http PUT https://registry.npmjs.org/timestamp-binning
+88 http 403 https://registry.npmjs.org/timestamp-binning
+89 info trying registry request attempt 1 at 22:02:18
+90 http PUT https://registry.npmjs.org/timestamp-binning
+91 http 403 https://registry.npmjs.org/timestamp-binning
+92 error publish Failed PUT 403
+93 error Error: forbidden cannot modify pre-existing version: 0.1.2
+93 error old={"name":"timestamp-binning","version":"0.1.2","description":"A small npm module for node.js that bins past timestamps into desired intervals and creates a histrogram array.","main":"timestamp-binning.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/belici/timestamp-binning.git"},"keywords":["node.js","timestamps","binning"],"author":{"name":"belici","email":"belici.apps@gmail.com","url":"http://www.grillberger.de/"},"license":"MIT","bugs":{"url":"https://github.com/belici/timestamp-binning/issues"},"homepage":"https://github.com/belici/timestamp-binning","_id":"timestamp-binning@0.1.2","dist":{"shasum":"ff7ff374c747cf90601f8e0b3c86bc8dadfc3132","tarball":"http://registry.npmjs.org/timestamp-binning/-/timestamp-binning-0.1.2.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"belici","email":"belici.apps@gmail.com"},"maintainers":[{"name":"belici","email":"belici.apps@gmail.com"}]}
+93 error new={"name":"timestamp-binning","version":"0.1.2","description":"A small npm module for node.js that bins past timestamps into desired intervals and creates a histrogram array.","main":"timestamp-binning.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/belici/timestamp-binning.git"},"keywords":["node.js","timestamps","binning"],"author":{"name":"belici","email":"belici.apps@gmail.com","url":"http://www.grillberger.de/"},"license":"MIT","bugs":{"url":"https://github.com/belici/timestamp-binning/issues"},"homepage":"https://github.com/belici/timestamp-binning","readme":"timestamp-binning\u000d\u000a=================\u000d\u000a\u000d\u000aA small module that bins past timestamps into desired intervals and creates a histogram array.\u000d\u000a\u000d\u000a## Installation\u000d\u000a\u000d\u000a`npm install timestamp-binning`\u000d\u000a\u000d\u000a## Usage\u000d\u000a```js\u000d\u000avar timestampBinner = require('timestamp-binning');\u000d\u000a\u000d\u000a//create a new timestamp binner:\u000d\u000avar evalPeriod = \"week\";\u000d\u000avar binSize = \"day\";\u000d\u000avar binner = new timestampBinner(evalPeriod, binSize);\u000d\u000a\u000d\u000a//some dummy timestamps (dates) as examples:\u000d\u000avar d1 = new Date(2014, 5, 27, 21, 20, 0, 0);\u000d\u000avar d2 = new Date(2014, 5, 29, 2, 20, 0, 0);\u000d\u000avar d3 = new Date(2014, 5, 28, 23, 20, 0, 0);\u000d\u000a\u000d\u000a//add an array of time stamps:\u000d\u000abinner.addTimestamps([d1, d3, d3, d3, d2]);\u000d\u000a\u000d\u000aconsole.log(binner.hist);\u000d\u000a//will output: [ 0, 0, 0, 0, 1, 3, 1 ]\u000d\u000a\u000d\u000a//add a single timestamp\u000d\u000abinner.addTimestamp(d1);\u000d\u000a\u000d\u000aconsole.log(binner.hist);\u000d\u000a//will output: [ 0, 0, 0, 0, 2, 3, 1 ]\u000d\u000a```\u000d\u000a\u000d\u000a### More options\u000d\u000a\u000d\u000aPossible bin sizes are: **day, hour, minute, second**\u000d\u000a\u000d\u000aAvailable evaluation periods are: **week, day, hour**","readmeFilename":"README.md","_id":"timestamp-binning@0.1.2","dist":{"shasum":"abfe0aca5bca94c004f6de605389b2d8cd493ffa","tarball":"http://registry.npmjs.org/timestamp-binning/-/timestamp-binning-0.1.2.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"belici","email":"belici.apps@gmail.com"},"maintainers":[{"name":"belici","email":"belici.apps@gmail.com"}]}: timestamp-binning
+93 error     at RegClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:275:14)
+93 error     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+93 error     at Request.EventEmitter.emit (events.js:98:17)
+93 error     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+93 error     at Request.EventEmitter.emit (events.js:117:20)
+93 error     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+93 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+93 error     at _stream_readable.js:920:16
+93 error     at process._tickCallback (node.js:415:13)
+94 error If you need help, you may report this *entire* log,
+94 error including the npm and node versions, at:
+94 error     <http://github.com/isaacs/npm/issues>
+95 error System Windows_NT 6.1.7601
+96 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+97 error cwd E:\Eigene Dateien\Node\node_modules\timestamp-binning
+98 error node -v v0.10.25
+99 error npm -v 1.3.24
+100 verbose exit [ 1, true ]

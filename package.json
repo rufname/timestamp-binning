@@ -1,6 +1,6 @@
 {
   "name": "timestamp-binning",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A small npm module for node.js that bins past timestamps into desired intervals and creates a histrogram array.",
   "main": "timestamp-binning.js",
   "scripts": {
