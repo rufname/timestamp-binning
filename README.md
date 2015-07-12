@@ -38,4 +38,4 @@ console.log(binner.hist);
 
 Possible bin sizes are: **day, hour, minute, second**
 
-Available evaluation periods are: **week, day, hour**
+Available evaluation periods are: **year**, **month**, **week, day, hour**

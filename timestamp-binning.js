@@ -45,6 +45,12 @@ module.exports = function(evalPeriodString, binSizeString, excludeBursts) {
 	//evalPeriod also corresponds to the number of possible bins
 	//week, day, hour
 	switch (evalPeriodString.toLowerCase()) {
+        case "year": 
+            evalPeriod = 31536000000 / binSize;
+            break;
+        case "month": 
+            evalPeriod = 2592000000 / binSize;
+            break;
 		case "week":
 			evalPeriod = 604800000 / binSize;
 			break;
